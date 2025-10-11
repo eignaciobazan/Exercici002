@@ -23,17 +23,94 @@
 
 }
 
-.separador{
-    margin: 120px;
+
+.Otrosp {
+    
+    
+    width: 11%;
+    background-color: white;
+    color:black;
+    border-bottom:4px solid green ;
+    margin:10px;
+    
+
 }
 
-.Borde-pie {
-    position:fixed;
+.separador{
+    margin: 120px;
+    flex:1;
+}
+
+.Pie-Pàgina {
+    position: fixed;
     bottom: 0;
-    background-color: green;
-    padding: 24px;
-    display:flex
+    left: 0;
+    width: 100%;
+    background-color: lightblue;
+    padding: 34px;
+    display: flex;
+    justify-content: normal;
+    gap:70px;
     
 }
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    
+}
+
+.item {
+    background: #90caf9;
+    border: 50px solid #00000033;
+    border-radius: 7px;
+    display: flow-root;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #222;
+}
+
+.item2 {
+    background: #59a3e1;
+    border: 50px solid #00000033;
+    border-radius: 7px;
+    display: flow-root;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #222;
+}
+
+.item3 {
+    background: #1a98ff;
+    border: 50px solid #00000033;
+    border-radius: 7px;
+    display: flow-root;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #222;
+}
+
+
+.linea {
+    border-bottom: green 4px solid;
+    padding-bottom: px;
+    margin-bottom: 0px;
+    font-size: 1.1em;
+    
+}
+
+
+
+
+
+
+
+
 
 
