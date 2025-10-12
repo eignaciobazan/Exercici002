@@ -202,53 +202,66 @@
 /* Ahora vamos con los productos(respecte al contenidor posicionat) */
 
 
- .contenidor {
-      margin-top: 90px;
-      padding: 12px;
-      max-width: 900px;
-      margin-inline: auto;
-    }
+.produ {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #959595;
+  border-radius: 10px;
+}
 
+/* 🔹 Barra de filtros */
+.barra-filtros {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #464646;
+  padding-bottom: 10px;
+}
 
-.sticky-separator {
-      position: sticky;
-      top: var(--sticky-offset);
-      height: 25px;               /* demanat: alt de 25px */
-      line-height: 25px;          /* centra el text verticalment */
-      padding: 0 10px;
-      font-weight: bold;
-      border-radius: 4px;
-      z-index: 5;                 /* per sobre de les caixes */
-    }    
+.barra-filtros span {
+  background: #f0f0f0;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
 
- .seccio {
-      padding-block: 8px 16px;
-      border-bottom: 1px dashed #ccc;
-    }   
-    
-.limpieza {
-      background-color: green;
-      color: white;
-    }  
-    
-.caixa {
-      height: 200px;
-      margin: 16px 0;
-      background-color: #e0e0e0;
-      border: 1px solid #999;
-      border-radius: 6px;
-    }    
+.barra-filtros span:hover {  /*este se relaciona con el otro span*/
+  background: #60a5fa;
+  color: white;
+}
 
+.grid-productos {
+  display: flex;
+  flex-wrap: wrap; /* permite que las tarjetas salten de línea */
+  gap: 20px;
+  justify-content: center;
+}
 
-.computador {
-      background-color: green;
-      color: white;
-    } 
-    
-.electrodomesticos {
-      background-color: green;
-      color: white;
-    }      
+/* 🔹 Tarjeta individual */
+.tarjeta {
+  flex: 1 1 260px;  /* ancho flexible con mínimo 260px */
+  background: #fef3c7;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
 
+.tarjeta .imagen {
+  background: #ddd; /* imagen ficticia */
+  height: 150px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
 
+.tarjeta h3 {
+  margin: 5px 0;
+}
 
+.tarjeta p {
+  font-weight: bold;
+  color: #333;
+}
