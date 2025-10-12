@@ -50,7 +50,7 @@
     padding: 34px;
     display: flex;
     justify-content: normal;
-    gap:170px;
+    gap:470px;
     
 }
 
@@ -140,7 +140,7 @@
 }
 
     body {
-  min-height: 150vh; /* vh = "viewport height" → 100% del alto visible */
+  min-height: 250vh; /* vh = "viewport height" → 100% del alto visible */
   background-color: #f0f0f0; /* opcional */
 }
 
@@ -182,7 +182,7 @@
       padding: 0 10px;
       font-weight: bold;
       border-radius: 4px;
-      z-index: 5; 
+       
       margin-top: 20px;
       display: flex;
       flex-wrap: nowrap;
@@ -199,14 +199,56 @@
 
 
 
+/* Ahora vamos con los productos(respecte al contenidor posicionat) */
 
 
+ .contenidor {
+      margin-top: 90px;
+      padding: 12px;
+      max-width: 900px;
+      margin-inline: auto;
+    }
 
 
+.sticky-separator {
+      position: sticky;
+      top: var(--sticky-offset);
+      height: 25px;               /* demanat: alt de 25px */
+      line-height: 25px;          /* centra el text verticalment */
+      padding: 0 10px;
+      font-weight: bold;
+      border-radius: 4px;
+      z-index: 5;                 /* per sobre de les caixes */
+    }    
+
+ .seccio {
+      padding-block: 8px 16px;
+      border-bottom: 1px dashed #ccc;
+    }   
+    
+.limpieza {
+      background-color: green;
+      color: white;
+    }  
+    
+.caixa {
+      height: 200px;
+      margin: 16px 0;
+      background-color: #e0e0e0;
+      border: 1px solid #999;
+      border-radius: 6px;
+    }    
 
 
-
-
+.computador {
+      background-color: green;
+      color: white;
+    } 
+    
+.electrodomesticos {
+      background-color: green;
+      color: white;
+    }      
 
 
 
