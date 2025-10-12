@@ -50,7 +50,7 @@
     padding: 34px;
     display: flex;
     justify-content: normal;
-    gap:70px;
+    gap:170px;
     
 }
 
@@ -102,13 +102,76 @@
 .contenedor {
     max-width: 1100px;
     background-color: gray;
-    height: 240px;
     margin: 110px auto;
-    padding: 20px;
+    padding: 60px;
+}
 
+/* Ahora la primera parte (respecte al contenidor posicionat) */
+
+.Hero {
+    background-color: #ffffff;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
 }
 
 
+.Hero h1 {
+    font-size: medium;
+    
+    
+}
+
+.Hero p {
+   color:black;
+   gap: 1px;
+    
+}
+
+.Hero a {
+    color: blue;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 10px;
+    text-align: center;
+    line-height: normal;
+}
+
+    body {
+  min-height: 100vh; /* vh = "viewport height" → 100% del alto visible */
+  background-color: #f0f0f0; /* opcional */
+}
+
+.contenedorp {
+    display: flex;
+    gap:100px;
+    flex-direction: row;
+
+    
+}
+
+.contenedor2 {
+    max-width: 50px;
+    background-color: burlywood;
+    padding: 5px 50px;
+    height: min-content;
+}
+
+.contenedor3 {
+    max-width: 50px;
+    background-color: burlywood;
+    padding: 5px 50px;
+    height: min-content;
+}
+
+.contenedor4 {
+    max-width: 50px;
+    background-color: burlywood;
+    padding: 5px 50px;
+    height: min-content;
+}
 
 
 
