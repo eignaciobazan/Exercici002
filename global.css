@@ -140,7 +140,7 @@
 }
 
     body {
-  min-height: 100vh; /* vh = "viewport height" → 100% del alto visible */
+  min-height: 150vh; /* vh = "viewport height" → 100% del alto visible */
   background-color: #f0f0f0; /* opcional */
 }
 
@@ -172,6 +172,33 @@
     padding: 5px 50px;
     height: min-content;
 }
+
+
+.Barra-horizontal {
+   position: sticky;
+      top: var(--sticky-offset);
+      height: 25px;               /* demanat: alt de 25px */
+      line-height: 25px;          /* centra el text verticalment */
+      padding: 0 10px;
+      font-weight: bold;
+      border-radius: 4px;
+      z-index: 5; 
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;    /* 👈 scroll horizontal si no caben */
+      white-space: nowrap; /* 👈 texto en una sola línea */
+
+      
+}
+
+.Barra {
+    background-color: lightcoral;
+    
+}
+
+
+
 
 
 
