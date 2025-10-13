@@ -29,11 +29,11 @@
 
 .Borde-pie {
     position:fixed;
-    bottom: 0;
+    bottom: 10;
     background-color: green;
     padding: 24px;
     display:flex
-    
+
 }
 
 
