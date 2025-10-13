@@ -251,10 +251,11 @@
 }
 
 .tarjeta .imagen {
-  background: #ddd; /* imagen ficticia */
+  background: #c7bdbd; /* imagen ficticia */
   height: 150px;
   border-radius: 8px;
   margin-bottom: 10px;
+  
 }
 
 .tarjeta h3 {
@@ -264,4 +265,15 @@
 .tarjeta p {
   font-weight: bold;
   color: #333;
+}
+
+
+/*Contacto*/
+.contacto {
+  max-width: 1100px;
+  margin:50px auto;
+  padding: 20px;
+  border-radius: 20px;
+  background: bisque;
+      
 }
