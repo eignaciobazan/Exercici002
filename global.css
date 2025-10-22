@@ -360,8 +360,8 @@
 
 /* Grid de 2 columnas */
 .contenedor-contacto {
-  display: grid;                     /* activamos el grid */
-  grid-template-columns: 1fr 1fr;    /* dos columnas iguales */
+  display: fles;                     /* activamos el flex*/
+  flex-direcction:columns 1px 1px;    /* dos columnas iguales */
   gap: 30px;                         /* espacio entre columnas */
 }
 
